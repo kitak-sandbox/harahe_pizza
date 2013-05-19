@@ -1,0 +1,12 @@
+{
+  "name": "HarahePizza",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "「はらへった」と検索したらピザ屋のページに飛ばす",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "tabs", "http://*/*", "history"
+  ]
+}
